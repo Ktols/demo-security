@@ -16,7 +16,7 @@ def write_file():
         f.write(content)
     return "Written"
 
-# 🐍 SQL Injection
+# 🐍 SQL Injections
 @app.route("/user")
 def get_user():
     username = request.args.get("name")
@@ -36,3 +36,4 @@ def ping():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
